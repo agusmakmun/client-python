@@ -15,7 +15,11 @@ import sys
 from setuptools import setup, find_packages
 
 NAME = "kubevirt-py"
-VERSION = "v0.57.0-103-gc2478d37b"
+# Change version because not support for python 3.9
+# https://peps.python.org/pep-0440/
+# VERSION = "v0.57.0-103-gc2478d37b"
+VERSION = "v0.57.0.103"
+
 # To install the library, run the following
 #
 # python setup.py install
